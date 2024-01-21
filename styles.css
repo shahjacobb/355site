@@ -1,0 +1,24 @@
+/* Basic styling for the navigation menu */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Dark gray background */
+    overflow: hidden;
+}
+
+li {
+    float: left; /* Align list items horizontally */
+}
+
+li a {
+    display: block;
+    color: white; /* White text color */
+    text-align: center;
+    padding: 14px 16px; /* Padding for spacing */
+    text-decoration: none; /* Remove underline from links */
+}
+
+li a:hover {
+    background-color: #111; /* Darker gray */
+}
